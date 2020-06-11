@@ -9,7 +9,23 @@ space = 32
 def input_error(msg, key):
     """Verifies that the message and the key are alphabet values, if not
        keep reprompting the user till the values are valid. All errors
-       from the JupyterNotebook are handled here."""
+       from the JupyterNotebook are handled here.
+       
+       Parameters
+       ----------
+       msg: string
+            A string of the user's input that we error check
+       key: string
+            A string of the user's input that we error check
+            
+       Returns
+       -------
+       msg: string
+            A valid input for message from the user
+       key: string
+            A valid input for key from the user
+                   
+    """
 
     # Bool value to keep looping until user enters valid message and key
     yikes = True

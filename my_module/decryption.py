@@ -7,7 +7,21 @@ space_int = 32
 
 def decrypt(cipher_text, key):
     """Given a cipher_text and a key, this function will convert the 
-       cipher_text to plain_text. No error handling will be done here."""
+       cipher_text to plain_text. No error handling will be done here.
+       
+       Parameters
+       ----------
+       cipher_text: string
+                    A string of the user's input that we will convert
+       key: string
+            A string of the user's input that will be the offset
+            
+       Returns
+       -------
+       plain_text: string
+                   A string that is the user's input decrypted
+            
+    """
 
     # Convert the cipher_text to upper case
     cipher_text = cipher_text.upper()

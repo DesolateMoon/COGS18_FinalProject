@@ -6,7 +6,17 @@ from my_module.decryption import decrypt
 from my_module.error_check import input_error
 
 def test_encrypt():
-  """"Test encrypt functionality."""
+  """"Test encrypt functionality.
+  
+      Parameters
+      ----------
+      none
+
+      Returns
+      -------
+      none
+
+  """
   # Keep track of number of tests that pass
   pass_test = 0
   # Total number of asserts
@@ -51,7 +61,15 @@ def test_encrypt():
             + str(total_test))
 
 def test_decrypt():
-  """"Test decrypt functionality."""
+  """"Test decrypt functionality.
+      Parameters
+      ----------
+      none
+
+      Returns
+      -------
+      none
+  """
   # Keep track of number of tests that pass
   pass_test = 0
   # Total number of asserts
@@ -96,7 +114,15 @@ def test_decrypt():
             + str(total_test))
 
 def test_input_error():
-  """"Test input_error functionality."""
+  """"Test input_error functionality.
+      Parameters
+      ----------
+      none
+
+      Returns
+      -------
+      none
+  """
   # Keep track of number of tests that pass
   pass_test = 0
   # Total number of asserts

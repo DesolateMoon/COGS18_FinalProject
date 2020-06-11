@@ -15,7 +15,17 @@ three = "3"
 def main():
     """"The main function that will be interacting with the JupyterNotebook. 
         Will be the wrapper for encryption.py, decryption.py, and 
-        error_check.py"""
+        error_check.py
+        
+       Parameters
+       ----------
+       none
+
+       Returns
+       -------
+       none, gives back command line
+
+    """
 
     # Bool value to keep prompting the user for input until user quits program
     chat = True
